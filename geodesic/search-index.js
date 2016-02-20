@@ -1,0 +1,3 @@
+var searchIndex = {};
+searchIndex['geodesic'] = {"items":[[0,"","geodesic","A wrapper around the barebones C version of [GeographicLib][1] ([docs][2]).",null,null],[3,"Geodesic","","",null,null],[11,"new","","Constructs a `Geodesic` with equatorial radius `a` (metres)\nand flattening `f`.",0,{"inputs":[{"name":"geodesic"},{"name":"f64"},{"name":"f64"}],"output":{"name":"geodesic"}}],[11,"wgs84","","Constructs a `Geodesic` according to the WGS84 ellipsoid.",0,{"inputs":[{"name":"geodesic"}],"output":{"name":"geodesic"}}],[11,"direct","","",0,null],[11,"inverse","","",0,null]],"paths":[[3,"Geodesic"]]};
+initSearch(searchIndex);
