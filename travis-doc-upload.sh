@@ -5,7 +5,6 @@
 # from: https://github.com/kmcallister/travis-doc-upload
 
 set -e
-set -x
 
 . ./scripts/travis-doc-upload.cfg
 
