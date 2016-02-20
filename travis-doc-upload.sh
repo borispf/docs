@@ -12,9 +12,9 @@ set -e
 
 [ "$TRAVIS_PULL_REQUEST" = false ]
 
-[ "$TRAVIS_RUST_VERSION" = "nightly" ]
+[ "$TRAVIS_RUST_VERSION" = "stable" ]
 
-[ "$TRAVIS_OS_NAME" = "linux"]
+[ "$TRAVIS_OS_NAME" = "linux" ]
 
 eval key=\$encrypted_${SSH_KEY_TRAVIS_ID}_key
 eval iv=\$encrypted_${SSH_KEY_TRAVIS_ID}_iv
